@@ -150,7 +150,7 @@
     <!-- end about -->
 
     <!-- skill -->
-    <section id="skill" >
+    <section id="skill" style="padding-bottom: 20px;">
       <div class="container-fluid">
         <div class="container">
           <div class="row justify-content-center">
@@ -263,127 +263,252 @@
     </section>
     <!-- end skill -->
 
-     <!-- sertifilat -->
-   <section id="sertifikat" >
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="text-center fw-bold">Sertifikat</h1>
-            <hr>
+
+<!-- Sertifikat -->
+<section id="sertifikat">
+  <div class="container-fluid">
+    <div class="container">
+      <!-- Header Section -->
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center fw-bold">Sertifikat</h1>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Sertifikat Images -->
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-md-12 text-center pt-3">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="img/sertifikat 1.png" alt="Sertifikat 1" class="img-fluid zoom" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showModal(this)">
+              <a href="https://www.sololearn.com/certificates/CC-EV35SQM7"><span>Show Detail</span></a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="img/sertifikat/js-inter.jpg" alt="JS Inter" class="img-fluid zoom" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showModal(this)">
+              <a href="https://www.sololearn.com/certificates/CC-EV35SQM7"><span>Show Detail</span></a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="img/sertifikat/js.jpg" alt="JS Sertifikat" class="img-fluid zoom" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showModal(this)">
+              <a href="https://www.sololearn.com/certificates/CC-X7JVLGHF"><span>Show Detail</span></a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="img/sertifikat/css.jpg" alt="CSS Sertifikat" class="img-fluid zoom" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showModal(this)">
+              <a href="https://www.sololearn.com/certificates/CC-WYO2JT2T"><span>Show Detail</span></a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="img/sertifikat/sertifikat6.jpg" alt="Sertifikat 6" class="img-fluid zoom" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showModal(this)">
+              <a href="https://www.sololearn.com/certificates/CC-ZNO54Y6X"><span>Show Detail</span></a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="row justify-content-center ">
-          <div class="col-lg-10  col-md-12 text-center pt-3">
-            <img src="img/sertifikat 1.png" alt="" class="img-fluid zoom">
-            <img src="img/sertifikat/js-inter.jpg" alt="" class="img-fluid zoom">
-            <img src="img/sertifikat/js.jpg" alt="" class="img-fluid zoom">
-            <img src="img/sertifikat/css.jpg" alt="" class="img-fluid zoom">
-            <img src="img/sertifikat/sertifikat6.jpg" alt="" class="img-fluid zoom">
+      <!-- LinkedIn Link -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 31.297 31.297">
+            <path id="linkedin" d="M28.466,0H2.831A2.831,2.831,0,0,0,0,2.831V28.466A2.831,2.831,0,0,0,2.831,31.3H28.466A2.831,2.831,0,0,0,31.3,28.466V2.831A2.831,2.831,0,0,0,28.466,0ZM9.685,27.024a.824.824,0,0,1-.824.824H5.354a.824.824,0,0,1-.824-.824v-14.7a.824.824,0,0,1,.824-.824H8.861a.824.824,0,0,1,.824.824ZM7.107,10.113a3.332,3.332,0,1,1,3.332-3.332A3.332,3.332,0,0,1,7.107,10.113ZM28.012,27.09a.758.758,0,0,1-.758.758H23.491a.758.758,0,0,1-.758-.758v-6.9c0-1.029.3-4.508-2.688-4.508-2.319,0-2.79,2.381-2.884,3.45V27.09a.758.758,0,0,1-.758.758h-3.64a.758.758,0,0,1-.758-.758V12.256a.758.758,0,0,1,.758-.758H16.4a.758.758,0,0,1,.758.758v1.283c.86-1.291,2.138-2.287,4.859-2.287,6.026,0,5.992,5.63,5.992,8.723V27.09Z" fill="#fff"/>
+          </svg>
+          <a href="https://www.linkedin.com/in/muhamad-iqbal-480169273/" class="text-center d-inline"> Selengkapnya di LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Sertifikat -->
+
+<!-- Modal for Image -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImage" src="" alt="" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+     <!-- end sertifikat -->
+
+
+    <!-- end portfolio -->
+<!-- Portfolio -->
+<section id="portfolio" class="py-5">
+  <div class="container">
+    <!-- Header Section -->
+    <div class="row justify-content-center text-center mb-4">
+      <div class="col-lg-8">
+        <h2 class="fw-bold">My Portfolio</h2>
+        <p class="text-muted">Explore my projects showcasing creativity, functionality, and innovation. Click "Show Demo" for live previews.</p>
+      </div>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="row g-3">
+      <!-- Portfolio Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card shadow-sm">
+          <img src="img/portfolio/fb.png" alt="Facebook Clone" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h5 class="portfolio-title">Facebook Clone</h5>
+            <a href="https://fb-clone-git-main-myraffa100s-projects.vercel.app/" target="_blank" class="btn btn-outline-light">Show Demo</a>
           </div>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-12 text-center">
-            <!-- icon linked in -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 31.297 31.297">
-              <path id="linkedin" d="M28.466,0H2.831A2.831,2.831,0,0,0,0,2.831V28.466A2.831,2.831,0,0,0,2.831,31.3H28.466A2.831,2.831,0,0,0,31.3,28.466V2.831A2.831,2.831,0,0,0,28.466,0ZM9.685,27.024a.824.824,0,0,1-.824.824H5.354a.824.824,0,0,1-.824-.824v-14.7a.824.824,0,0,1,.824-.824H8.861a.824.824,0,0,1,.824.824ZM7.107,10.113a3.332,3.332,0,1,1,3.332-3.332A3.332,3.332,0,0,1,7.107,10.113ZM28.012,27.09a.758.758,0,0,1-.758.758H23.491a.758.758,0,0,1-.758-.758v-6.9c0-1.029.3-4.508-2.688-4.508-2.319,0-2.79,2.381-2.884,3.45V27.09a.758.758,0,0,1-.758.758h-3.64a.758.758,0,0,1-.758-.758V12.256a.758.758,0,0,1,.758-.758H16.4a.758.758,0,0,1,.758.758v1.283c.86-1.291,2.138-2.287,4.859-2.287,6.026,0,5.992,5.63,5.992,8.723V27.09Z" fill="#fff"/>
-          
-            </svg>
-            <a href="https://www.linkedin.com/in/muhamad-iqbal-480169273/" class="text-center d-inline"> Selengkapnya 
-              di Linked In</a>
-            
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card shadow-sm">
+          <img src="img/portfolio/calculator.png" alt="Calculator" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h5 class="portfolio-title">Calculator</h5>
+            <a href="https://simple-calculator-nine-delta.vercel.app/" target="_blank" class="btn btn-outline-light">Show Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card shadow-sm">
+          <img src="img/portfolio/healtyfood.png" alt="Healthy Food" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h5 class="portfolio-title">Healthy Food</h5>
+            <a href="https://healthyfood-web.vercel.app/" target="_blank" class="btn btn-outline-light">Show Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card shadow-sm">
+          <img src="img/portfolio/tetris.png" alt="Tetris Game" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h5 class="portfolio-title">Tetris Game</h5>
+            <a href="https://tetris-gamee.vercel.app/" target="_blank" class="btn btn-outline-light">Show Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card shadow-sm">
+          <img src="img/portfolio/dsb.png" alt="Tetris Game" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h5 class="portfolio-title">Dashboard</h5>
+            <a href="https://muhamad-iqbal-05-tplk-003.vercel.app/index.html" target="_blank" class="btn btn-outline-light">Show Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card shadow-sm">
+          <img src="img/portfolio/chart.png" alt="Dashboard Chart" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h5 class="portfolio-title">Dashboard Chart</h5>
+            <a href="https://dashboard-analyst.vercel.app/" target="_blank" class="btn btn-outline-light">Show Demo</a>
           </div>
         </div>
       </div>
     </div>
-   </section>
-     <!-- end sertifikat -->
-    <!-- portfolio -->
-    <section id="portfolio" class="transition-item">
-     <div class="container-fluid">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 mb-3">
-             <h1 class="text-center fw-bold">Gallery Portfolio</h1>
-             <hr>
-        </div>
-        
-        <div class="row  justify-content-center">
-          <div class="col-lg-10 col-md-12 d-flex pt-5">
-            <div class="card border-3 m-1">
-               <img src="img/portfolio/fb.png" alt="" class="img-fluid zoom">
-               <a href="https://fb-clone-git-main-myraffa100s-projects.vercel.app/" class="title-portfolio"> Show Demo </a>
-            </div>
-            <div class="card border-3 m-1">
-              <img src="img/portfolio/calculator.png" alt="" class="img-fluid zoom" >
-              <a href="https://simple-calculator-nine-delta.vercel.app/" class="title-portfolio"> Show Demo </a>
-           </div>
-           <div class="card border-3 m-1">
-            <img src="img/portfolio/healtyfood.png" alt="" class="img-fluid zoom">
-            <a href="https://healthyfood-web.vercel.app/" class="title-portfolio"> Show Demo</a>
-            </div>
-            <div class="card border-3 m-1">
-              <img src="img/portfolio/tetris.png" alt="" class="img-fluid zoom">
-              <a href="https://tetris-gamee.vercel.app/" class="title-portfolio"> Show Demo</a>
-              </div>
-              <div class="card border-3 m-1">
-                <img src="img/portfolio/chart.png" alt="" class="img-fluid zoom">
-                <a href="https://dashboard-analyst.vercel.app/" class="title-portfolio"> Show Demo</a>
-                </div>
-          </div>
-        </div>
+  </div>
+</section>
+<!-- End Portfolio -->
 
+<!-- contact -->
+<!-- Contact Person Section -->
+<section id="contact-person">
+  <div class="container-fluid bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center fw-bold" style="color: black;">Contact Person</h1>
+          <hr class="custom-hr">
+        </div>
       </div>
+      <div class="row justify-content-center pt-4">
+        <!-- Contact Info -->
+        <div class="col-md-6 col-sm-12 text-center mb-4 contact-info">
+          <h3 class="fw-bold">Contact Me</h3>
+          <p class="text-muted">Jika Anda memiliki pertanyaan atau ingin bekerja sama, silakan hubungi melalui kontak di bawah ini:</p>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-phone-alt text-primary"></i> <strong>Phone:</strong> 0895412919579</li>
+            <li><i class="fas fa-envelope text-primary"></i> <strong>Email:</strong> muahamadiqbal68@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt text-primary"></i> <strong>Address:</strong> Jl.Gatot subroto, Tangerang, Banten</li>
+          </ul>
+        </div>
+        <!-- Contact Form -->
+        <div class="col-md-6 col-sm-12">
+          <h3 class="fw-bold text-center">Send Me</h3>
+          <form action="mailto:info@example.com" method="POST" enctype="text/plain" class="contact-form pt-3">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Anda</label>
+              <input type="text" id="name" name="name" class="form-control custom-input" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Anda</label>
+              <input type="email" id="email" name="email" class="form-control custom-input" placeholder="Masukkan email Anda" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Pesan Anda</label>
+              <textarea id="message" name="message" class="form-control custom-input" rows="5" placeholder="Tulis pesan Anda" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg custom-button">Kirim Pesan</button>
+            </div>
+          </form>
+        </div>
       </div>
-     </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- end portfolio -->
+<!-- Optional FontAwesome for icons -->
+
+<!-- end contact -->
     <!-- footer -->
 
     <footer class="py-4" id="footer">
       <div class="container-fluid">
         <div class="container">
           <div class="row justify-content-center">
-           <div class="col-12">
-            <h3 class="text-center text-light">Thanks for Scrolling. That's all folks</h3>
-           </div>
+            <div class="col-12">
+              <h3 class="text-center text-light">Thanks for Scrolling. That's all folks</h3>
+            </div>
           </div>
-
+          
           <!-- icon -->
           <div class="icon social-icon-footer text-center">
-              <!-- icon instagram -->
-              <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 31.925 31.931">
-                <path id="Path_17" data-name="Path 17" d="M32.293,9.388a11.668,11.668,0,0,0-.742-3.874A8.18,8.18,0,0,0,26.878.842,11.7,11.7,0,0,0,23,.1C21.3.019,20.753,0,16.417,0S11.539.019,9.836.094A11.671,11.671,0,0,0,5.963.836,7.791,7.791,0,0,0,3.131,2.682a7.862,7.862,0,0,0-1.84,2.826A11.7,11.7,0,0,0,.548,9.382c-.081,1.709-.1,2.252-.1,6.587s.019,4.878.094,6.581a11.667,11.667,0,0,0,.742,3.874A8.178,8.178,0,0,0,5.957,31.1a11.7,11.7,0,0,0,3.874.742c1.7.075,2.246.094,6.581.094s4.878-.019,6.581-.094a11.665,11.665,0,0,0,3.874-.742,8.167,8.167,0,0,0,4.672-4.672,11.707,11.707,0,0,0,.742-3.874c.075-1.7.094-2.246.094-6.581s-.006-4.878-.081-6.581ZM29.417,22.425a8.752,8.752,0,0,1-.549,2.963,5.3,5.3,0,0,1-3.032,3.032,8.783,8.783,0,0,1-2.963.549c-1.684.075-2.189.094-6.45.094s-4.772-.019-6.45-.094a8.748,8.748,0,0,1-2.963-.549,4.913,4.913,0,0,1-1.834-1.192,4.964,4.964,0,0,1-1.192-1.834,8.785,8.785,0,0,1-.549-2.963c-.075-1.684-.094-2.19-.094-6.45s.019-4.772.094-6.45a8.748,8.748,0,0,1,.549-2.963,4.853,4.853,0,0,1,1.2-1.834A4.957,4.957,0,0,1,7.017,3.543,8.789,8.789,0,0,1,9.98,2.994c1.684-.075,2.19-.094,6.45-.094s4.772.019,6.45.094a8.752,8.752,0,0,1,2.963.549,4.91,4.91,0,0,1,1.834,1.191,4.963,4.963,0,0,1,1.192,1.834,8.788,8.788,0,0,1,.549,2.963c.075,1.684.094,2.189.094,6.45s-.019,4.759-.094,6.444Zm0,0" transform="translate(-0.449 0)" fill="#fff"/>
-                <path id="Path_18" data-name="Path 18" d="M133.152,124.5a8.2,8.2,0,1,0,8.2,8.2A8.2,8.2,0,0,0,133.152,124.5Zm0,13.524a5.321,5.321,0,1,1,5.321-5.321A5.322,5.322,0,0,1,133.152,138.024Zm0,0" transform="translate(-117.183 -116.734)" fill="#fff"/>
-                <path id="Path_19" data-name="Path 19" d="M366.28,90.517a1.915,1.915,0,1,1-1.915-1.915A1.915,1.915,0,0,1,366.28,90.517Zm0,0" transform="translate(-339.869 -83.075)" fill="#fff"/>
-              </svg>
-              
-              <!-- icon linked in -->
-              <a href="https://www.linkedin.com/in/muhamad-iqbal-480169273/" target="_blank">
+            <!-- icon instagram -->
+            <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 31.925 31.931">
+              <path id="Path_17" data-name="Path 17" d="M32.293,9.388a11.668,11.668,0,0,0-.742-3.874A8.18,8.18,0,0,0,26.878.842,11.7,11.7,0,0,0,23,.1C21.3.019,20.753,0,16.417,0S11.539.019,9.836.094A11.671,11.671,0,0,0,5.963.836,7.791,7.791,0,0,0,3.131,2.682a7.862,7.862,0,0,0-1.84,2.826A11.7,11.7,0,0,0,.548,9.382c-.081,1.709-.1,2.252-.1,6.587s.019,4.878.094,6.581a11.667,11.667,0,0,0,.742,3.874A8.178,8.178,0,0,0,5.957,31.1a11.7,11.7,0,0,0,3.874.742c1.7.075,2.246.094,6.581.094s4.878-.019,6.581-.094a11.665,11.665,0,0,0,3.874-.742,8.167,8.167,0,0,0,4.672-4.672,11.707,11.707,0,0,0,.742-3.874c.075-1.7.094-2.246.094-6.581s-.006-4.878-.081-6.581ZM29.417,22.425a8.752,8.752,0,0,1-.549,2.963,5.3,5.3,0,0,1-3.032,3.032,8.783,8.783,0,0,1-2.963.549c-1.684.075-2.189.094-6.45.094s-4.772-.019-6.45-.094a8.748,8.748,0,0,1-2.963-.549,4.913,4.913,0,0,1-1.834-1.192,4.964,4.964,0,0,1-1.192-1.834,8.785,8.785,0,0,1-.549-2.963c-.075-1.684-.094-2.19-.094-6.45s.019-4.772.094-6.45a8.748,8.748,0,0,1,.549-2.963,4.853,4.853,0,0,1,1.2-1.834A4.957,4.957,0,0,1,7.017,3.543,8.789,8.789,0,0,1,9.98,2.994c1.684-.075,2.19-.094,6.45-.094s4.772.019,6.45.094a8.752,8.752,0,0,1,2.963.549,4.91,4.91,0,0,1,1.834,1.191,4.963,4.963,0,0,1,1.192,1.834,8.788,8.788,0,0,1,.549,2.963c.075,1.684.094,2.189.094,6.45s-.019,4.759-.094,6.444Zm0,0" transform="translate(-0.449 0)" fill="#fff"/>
+              <path id="Path_18" data-name="Path 18" d="M133.152,124.5a8.2,8.2,0,1,0,8.2,8.2A8.2,8.2,0,0,0,133.152,124.5Zm0,13.524a5.321,5.321,0,1,1,5.321-5.321A5.322,5.322,0,0,1,133.152,138.024Zm0,0" transform="translate(-117.183 -116.734)" fill="#fff"/>
+              <path id="Path_19" data-name="Path 19" d="M366.28,90.517a1.915,1.915,0,1,1-1.915-1.915A1.915,1.915,0,0,1,366.28,90.517Zm0,0" transform="translate(-339.869 -83.075)" fill="#fff"/>
+            </svg>
+            
+            <!-- icon linked in -->
+            <a href="https://www.linkedin.com/in/muhamad-iqbal-480169273/" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="20"  viewBox="0 0 31.297 31.297" a>
                 <path id="linkedin" d="M28.466,0H2.831A2.831,2.831,0,0,0,0,2.831V28.466A2.831,2.831,0,0,0,2.831,31.3H28.466A2.831,2.831,0,0,0,31.3,28.466V2.831A2.831,2.831,0,0,0,28.466,0ZM9.685,27.024a.824.824,0,0,1-.824.824H5.354a.824.824,0,0,1-.824-.824v-14.7a.824.824,0,0,1,.824-.824H8.861a.824.824,0,0,1,.824.824ZM7.107,10.113a3.332,3.332,0,1,1,3.332-3.332A3.332,3.332,0,0,1,7.107,10.113ZM28.012,27.09a.758.758,0,0,1-.758.758H23.491a.758.758,0,0,1-.758-.758v-6.9c0-1.029.3-4.508-2.688-4.508-2.319,0-2.79,2.381-2.884,3.45V27.09a.758.758,0,0,1-.758.758h-3.64a.758.758,0,0,1-.758-.758V12.256a.758.758,0,0,1,.758-.758H16.4a.758.758,0,0,1,.758.758v1.283c.86-1.291,2.138-2.287,4.859-2.287,6.026,0,5.992,5.63,5.992,8.723V27.09Z" fill="#fff"/>
               </svg>
-              </a>
-              
-              <!-- icon github -->
-              <a href="https://github.com/muhamadiqbal29" 
-              target="_blank">
-              <svg id="github-logo" xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 35.627 34.755">
-                <path id="Path_20" data-name="Path 20" d="M33.237,14.237a17.736,17.736,0,0,0-6.483-6.483,17.423,17.423,0,0,0-8.941-2.389A17.425,17.425,0,0,0,8.872,7.754a17.734,17.734,0,0,0-6.483,6.483A17.425,17.425,0,0,0,0,23.178,17.312,17.312,0,0,0,3.4,33.65a17.446,17.446,0,0,0,8.779,6.436,1.038,1.038,0,0,0,.928-.162.907.907,0,0,0,.3-.7q0-.07-.012-1.252t-.012-2.064L12.849,36a6.805,6.805,0,0,1-1.287.081,9.809,9.809,0,0,1-1.612-.162,3.6,3.6,0,0,1-1.554-.7A2.943,2.943,0,0,1,7.375,33.8l-.232-.534a5.8,5.8,0,0,0-.73-1.183A2.8,2.8,0,0,0,5.4,31.2l-.162-.116a1.7,1.7,0,0,1-.3-.279,1.272,1.272,0,0,1-.209-.325q-.07-.163.116-.267a1.5,1.5,0,0,1,.673-.1l.464.069a3.386,3.386,0,0,1,1.148.557,3.744,3.744,0,0,1,1.125,1.206A4.089,4.089,0,0,0,9.544,33.4a2.731,2.731,0,0,0,1.519.5,6.6,6.6,0,0,0,1.322-.116,4.613,4.613,0,0,0,1.044-.348,3.758,3.758,0,0,1,1.136-2.389,15.881,15.881,0,0,1-2.377-.418,9.466,9.466,0,0,1-2.18-.9,6.244,6.244,0,0,1-1.867-1.554,7.468,7.468,0,0,1-1.218-2.435,11.581,11.581,0,0,1-.475-3.479A6.765,6.765,0,0,1,8.28,17.471a6.235,6.235,0,0,1,.162-4.731,3.25,3.25,0,0,1,1.995.313,13.946,13.946,0,0,1,1.937.893q.615.371.986.626a16.751,16.751,0,0,1,8.907,0l.881-.556A12.483,12.483,0,0,1,25.282,13a3.04,3.04,0,0,1,1.879-.255,6.175,6.175,0,0,1,.185,4.731,6.766,6.766,0,0,1,1.833,4.778A11.711,11.711,0,0,1,28.7,25.74a7.178,7.178,0,0,1-1.229,2.435A6.484,6.484,0,0,1,25.6,29.718a9.484,9.484,0,0,1-2.18.9,15.865,15.865,0,0,1-2.377.418,4.131,4.131,0,0,1,1.206,3.293v4.894a.924.924,0,0,0,.29.7,1.007,1.007,0,0,0,.916.162,17.444,17.444,0,0,0,8.779-6.436,17.315,17.315,0,0,0,3.4-10.472A17.439,17.439,0,0,0,33.237,14.237Z" transform="translate(0 -5.365)" fill="#fff"/>
-              </svg>
-              
+            </a>
+            
+            <!-- icon github -->
+            <a href="https://github.com/muhamadiqbal29" 
+            target="_blank">
+            <svg id="github-logo" xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 35.627 34.755">
+              <path id="Path_20" data-name="Path 20" d="M33.237,14.237a17.736,17.736,0,0,0-6.483-6.483,17.423,17.423,0,0,0-8.941-2.389A17.425,17.425,0,0,0,8.872,7.754a17.734,17.734,0,0,0-6.483,6.483A17.425,17.425,0,0,0,0,23.178,17.312,17.312,0,0,0,3.4,33.65a17.446,17.446,0,0,0,8.779,6.436,1.038,1.038,0,0,0,.928-.162.907.907,0,0,0,.3-.7q0-.07-.012-1.252t-.012-2.064L12.849,36a6.805,6.805,0,0,1-1.287.081,9.809,9.809,0,0,1-1.612-.162,3.6,3.6,0,0,1-1.554-.7A2.943,2.943,0,0,1,7.375,33.8l-.232-.534a5.8,5.8,0,0,0-.73-1.183A2.8,2.8,0,0,0,5.4,31.2l-.162-.116a1.7,1.7,0,0,1-.3-.279,1.272,1.272,0,0,1-.209-.325q-.07-.163.116-.267a1.5,1.5,0,0,1,.673-.1l.464.069a3.386,3.386,0,0,1,1.148.557,3.744,3.744,0,0,1,1.125,1.206A4.089,4.089,0,0,0,9.544,33.4a2.731,2.731,0,0,0,1.519.5,6.6,6.6,0,0,0,1.322-.116,4.613,4.613,0,0,0,1.044-.348,3.758,3.758,0,0,1,1.136-2.389,15.881,15.881,0,0,1-2.377-.418,9.466,9.466,0,0,1-2.18-.9,6.244,6.244,0,0,1-1.867-1.554,7.468,7.468,0,0,1-1.218-2.435,11.581,11.581,0,0,1-.475-3.479A6.765,6.765,0,0,1,8.28,17.471a6.235,6.235,0,0,1,.162-4.731,3.25,3.25,0,0,1,1.995.313,13.946,13.946,0,0,1,1.937.893q.615.371.986.626a16.751,16.751,0,0,1,8.907,0l.881-.556A12.483,12.483,0,0,1,25.282,13a3.04,3.04,0,0,1,1.879-.255,6.175,6.175,0,0,1,.185,4.731,6.766,6.766,0,0,1,1.833,4.778A11.711,11.711,0,0,1,28.7,25.74a7.178,7.178,0,0,1-1.229,2.435A6.484,6.484,0,0,1,25.6,29.718a9.484,9.484,0,0,1-2.18.9,15.865,15.865,0,0,1-2.377.418,4.131,4.131,0,0,1,1.206,3.293v4.894a.924.924,0,0,0,.29.7,1.007,1.007,0,0,0,.916.162,17.444,17.444,0,0,0,8.779-6.436,17.315,17.315,0,0,0,3.4-10.472A17.439,17.439,0,0,0,33.237,14.237Z" transform="translate(0 -5.365)" fill="#fff"/>
+            </svg>
+            
           </div>
         </div>
       </div>  
     </a>    
-    </footer>
-
-<!-- myscript -->
-<script src="js/script.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  </footer>
+  
+  <!-- myscript -->
+  <script src="js/script.js"></script>
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>

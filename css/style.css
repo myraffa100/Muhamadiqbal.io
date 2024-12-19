@@ -152,72 +152,181 @@ hr {
   padding-bottom: 50px !important;
 }
 
-/* sertifikat */
+/* Sertifikat Section */
 #sertifikat {
-  margin-top: -170px;
-  padding-top: 270px;
-  padding-bottom: 80px;
-  background-color: var(--secondaryColor);
+  background-color: #f4f6f8;
+  padding-top: 50px;
 }
 
-#sertifikat p, a {
-  color: #fff;
-  text-decoration: none;
+#sertifikat h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
 }
 
-#sertifikat p, a:hover {
-  color: var(--acsentColor);
-  transition:  .2s;
-}
-
-#sertifikat img {
-  width: 49%;
-  padding: 10px;
-}
-
-/* animasi img */
-.zoom {
-  transition: transform 0.2s ease;
+#sertifikat .zoom {
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.zoom:hover {
-  transform: scale(1.2);
+#sertifikat .zoom:hover {
+  transform: scale(1.1);
 }
 
-.transition-item {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+/* Responsive Image Grid */
+#sertifikat .row > .col-md-4 {
+  padding: 0 15px;
 }
 
-.transition-item.show {
-  opacity: 1;
-  transform: translateY(0);
+#sertifikat .img-fluid {
+  border-radius: 10px;
 }
+
+@media (max-width: 767px) {
+  #sertifikat .col-md-4 {
+    margin-bottom: 15px;
+  }
+}
+
+/* LinkedIn Button */
+#sertifikat svg {
+  fill: #0077b5;
+  width: 24px;
+}
+
+#sertifikat a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0077b5;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#sertifikat a:hover {
+  color: #005582;
+}
+
 
 /* portfolio*/
+/* Portfolio Section Styling */
 #portfolio {
-  margin-top: 110px;
-  margin-bottom: 80px;
-
+  background-color: #f4f6f8;
 }
 
-#portfolio .card {
-  margin: 10px;
+#portfolio h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
 }
 
-.title-portfolio {
-  color: #FF9130;
+#portfolio p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Portfolio Card Styling */
+.portfolio-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-img {
+  opacity: 0.7;
+}
+
+/* Portfolio Overlay */
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-title {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-outline-light {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
-  margin: 0;
-  padding: 10px;
-  cursor: pointer;
 }
 
-.title-portfolio:hover {
- border: 1px solid   var(--acsentColor) ;
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+/* Grid Styling */
+.row.g-4 {
+  gap: 20px;
+}
+
+#contact-person {
+  background-color: #f9f9f9;
+}
+.custom-hr {
+  border: 0;
+  height: 3px;
+  background: linear-gradient(to right, #007bff, #00d2ff);
+  margin: 0 auto;
+  width: 60%;
+}
+.contact-info ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.contact-form .custom-input {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.contact-form .custom-input:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border-color: #0056b3;
+}
+.custom-button {
+  background: linear-gradient(to right, #007bff, #00d2ff);
+  border: none;
+  color: #fff;
+  transition: transform 0.3s;
+}
+.custom-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
 }
 
 
