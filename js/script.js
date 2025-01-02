@@ -1,30 +1,29 @@
 // conditional navbar scrolling
-const nav = document.getElementById('nav');
+const nav = document.getElementById("nav");
 
-window.addEventListener('scroll', function(){
+window.addEventListener("scroll", function () {
   scrollposition = window.scrollY;
 
-  if(scrollposition >= 60 ) {
-     nav.classList.add('nav-dark');
+  if (scrollposition >= 60) {
+    nav.classList.add("nav-dark");
   } else if (scrollposition <= 0) {
-    nav.classList.remove('nav-dark')
+    nav.classList.remove("nav-dark");
   }
-})
-
+});
 
 // transition effect
-document.addEventListener('DOMContentLoaded', function() {
-  const sections = document.querySelectorAll('.transition-item');
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = document.querySelectorAll(".transition-item");
 
   function checkInView() {
-    sections.forEach(section => {
+    sections.forEach((section) => {
       const sectionTop = section.getBoundingClientRect().top;
       const windowHeight = window.innerHeight;
 
       if (sectionTop < windowHeight) {
-        section.classList.add('show');
+        section.classList.add("show");
       } else {
-        section.classList.remove('show');
+        section.classList.remove("show");
       }
     });
   }
@@ -33,5 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
   checkInView();
 
   // Listen to scroll event
-  document.addEventListener('scroll', checkInView);
+  document.addEventListener("scroll", checkInView);
 });
+
+
